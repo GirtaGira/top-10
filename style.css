@@ -1,0 +1,95 @@
+body{
+
+
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+}
+
+@keyframes myAnimation {
+  0%   {background-color: rgb(45, 82, 82);}
+  25%  {background-color: rgb(80, 151, 151);}
+  50%  {background-color: rgb(44, 130, 170);}
+  100% {background-color: rgb(147, 207, 207);}
+}
+
+
+.bleood{
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+
+}
+
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+header{
+    text-align: center;
+    font-size: 130px;
+    font-family: Arial, sans-serif;
+    text-shadow: 0px 5px 5px;
+    text-decoration: underline;
+    color: rgb(24, 7, 1);
+
+
+    
+}
+
+.box{
+  background-color: rgb(94, 190, 190);
+    box-shadow: 0 4px 8px;
+    width: 700px;
+    height: 850px;
+    text-align: center;
+    font-size: 50px;
+    font-family:monospace;
+    padding: 20px;
+    margin: 30px;
+        
+}
+
+.img{
+    width: 700px;
+    height: 700px;
+    padding: 1px;
+    border-radius: 5px;
+    
+
+}
+.sub{
+    text-align: center;
+    font-size: 100px;
+
+}
+.button{
+    background-color:rgb(190, 143, 40);
+    border-radius: 15px;
+    padding: 5px;
+    
+
+}
+
